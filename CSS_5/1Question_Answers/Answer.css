@@ -1,0 +1,41 @@
+.parent{
+    border: 2px solid lightseagreen;
+    border-radius: 10px;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* padding: 25px 0 2px 0; */
+    align-items: center;
+}
+
+.parent div{
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    border: 2px solid black;
+    border-radius: 10%;
+    background-color: grey;
+    text-align: center;
+}
+
+.container{
+    border: 2px solid green;
+    height: 50px;
+    width: 900px;
+    display: flex;
+    border-radius: 10px;
+    background-color: pink;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+.container div{
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+    line-height: 50px;
+    /* padding-left: 5px; */
+    margin-left: 5px;
+}

@@ -1,0 +1,20 @@
+*{
+    color: green;
+    background-color: lightyellow;
+}
+
+header,h3{
+    background-color: lightgoldenrodyellow;
+}
+
+.follow{
+    color: brown;
+}
+
+#syllabus{
+    color: red;
+}
+
+main #syllabus{
+    color: black;
+}
