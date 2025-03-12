@@ -3,35 +3,32 @@ h1{
     border: 2px solid black;
 }
 
-@media (width:400px){
-    h1{background-color:red;
-    color: white;
-}
-    div{
-        height: 100px;
-        width: 100px;
-        background-color:blue;
-    }
-}
-
- @media (min-width:500px) and (max-width:700px){
-    h1{
-        background-color: greenyellow;
+@media (width: 400px) {
+    h1 {
+        background-color: red;
         color: white;
     }
-}
-
-    /* @media (max-width:700px){
-        h1{
-            background-color: greenyellow;
-            color: white;
-        }
-} */
-
-@media (orientation:landscape){
-    h1{
-        background-color: aqua;
-        color: brown;
+    div {
+        height: 100px;
+        width: 100px;
+        background-color: blue;
     }
 }
 
+
+@media (min-width : 700px) {
+    h1 {
+        background-color: greenyellow;
+    }
+}
+@media (max-width: 200px) {
+    h1 {
+        background-color: pink;
+    }
+}
+
+@media (orientation : landscape) {
+    h1 {
+        background-color: red;
+    }
+}

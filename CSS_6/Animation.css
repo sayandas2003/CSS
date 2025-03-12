@@ -2,27 +2,24 @@
     height: 100px;
     width: 300px;
     background-color: pink;
-    animation-name: fontAnimation;
-    animation-duration: 1s;
-    animation-timing-function: ease;
-    animation-delay: 0;
+    /* animation-name: widthAnimate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
     animation-iteration-count: infinite;
-    animation-direction: alternate;
+    animation-direction: normal; */
+
+    animation: widthAnimate 3s ease-in-out 0s infinite normal;
 }
 
-@keyframes fontAnimation {
-    0%{font-size: 2px;}
-    50%{font-size: 5px;}
-    100%{font-size: 8px;}
-}
-@keyframes colorAnimate{
-
-    from{
-        background-color: green;
+@keyframes widthAnimate {
+    from {
+        width: 10px;
         font-size: 20px;
+        background-color: green;
     }
     to {
-        background-color: blue;
+        width: 400px;
         font-size: 40px;
+        background-color: blue;
     }
 }
